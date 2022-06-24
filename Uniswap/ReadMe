@@ -1,0 +1,13 @@
+Test Uniswap Swapping by forking Mainnet.
+
+```bash
+  npm install
+
+  ganache-cli --fork https://mainnet.infura.io/v3/{API-KEY} --unlock {WBTC_WHALE_ADDRESS} --networkId 999
+
+  npx truffle --network forking__mainnet test/testSwap.js
+```
+
+## Screenshots
+
+![Screenshot (164)](https://user-images.githubusercontent.com/82386993/174989531-1bad1438-4773-43ef-ae31-2a3ff188db1e.png)

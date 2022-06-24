@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "bn.js": "^5.2.1",
+    "dotenv": "^16.0.1"
+  }
+}
