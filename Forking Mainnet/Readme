@@ -1,0 +1,5 @@
+Forking --->
+ganache-cli --fork https://mainnet.infura.io/v3/{API_KEY} --unlock {DAI_WHALE_ADDRESS} --networkId 999
+
+Running TestCases --->
+npx truffle --network forking\_\_mainnet test/testForking.js

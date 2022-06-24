@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bn.js": "^5.2.1",
+    "dotenv": "^16.0.1"
+  }
+}
